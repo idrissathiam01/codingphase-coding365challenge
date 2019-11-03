@@ -1,0 +1,18 @@
+// CUSTOM STYLESHEET FOR INDEX.HTML 
+
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.outer-panel {
+  width: 100%;
+  padding: 0% 7%;
+  background-color: rgba(0,0,0,0.059);
+}
+
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
