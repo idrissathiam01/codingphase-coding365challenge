@@ -11,7 +11,7 @@
 if (! empty( $_POST )) {
 	
 	//Connect to MySQL
-	$mysqli = new mysqli( 'localhost','idrissat_idris','Idri0798!', 'idrissat_project1');
+	$mysqli = new mysqli( 'localhost',root','root', 'root');
 	
 	//Check our Connection
 	if ( $mysqli->connect_error) {
