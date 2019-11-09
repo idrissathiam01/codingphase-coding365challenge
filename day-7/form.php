@@ -3,7 +3,7 @@
 	<title>#Coding365Challenge: Day 7 (Form Submission to Database)</title>
 </head>
 <body>
-	<header><h1>#Coding365Challenge: Day 7 (Form Submission to Database)</h1></header>
+	<header><h1>Coding365Challenge: Day 7 (Form Submission to Database)</h1></header>
 	<main>
 		<?php 
 // Only process the form if $_POST isn't empty
@@ -11,11 +11,11 @@
 if (! empty( $_POST )) {
 	
 	//Connect to MySQL
-	$mysqli = new mysqli( 'localhost','root','root','root', 'users');
+	$mysqli = new mysqli( 'localhost','idrissat_idris','Idri0798!', 'idrissat_project1');
 	
 	//Check our Connection
 	if ( $mysqli->connect_error) {
-		die('Connect Error:' . $mysqli->connect_errno . ': ' . $mysqli-connect_error );
+		die('Connect Error:' . $mysqli->connect_errno . ': ' . $mysqli->connect_error );
 	}
 	
 	//Insert our data
@@ -34,9 +34,9 @@ if (! empty( $_POST )) {
 }
 ?>
 <form method="post" action="">
-	<input name="NAME" type="text">
-	<input name="EMAIL" type="email">
-	<input name="PASSWORD" type="text">
+	<input name="NAME" type="text" placeholder="Enter Your Name">
+	<input name="EMAIL" type="email" placeholder="Email">
+	<input name="PASSWORD" type="text" placeholder="Password">
 	<input type="submit" value="Submit data">
 </form>
 	</main>
