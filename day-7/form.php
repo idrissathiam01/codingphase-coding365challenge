@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title><h1>#Coding365Challenge: Day 7 (Form Submission to Database)</h1></title>
+	<title>#Coding365Challenge: Day 7 (Form Submission to Database)</title>
 </head>
 <body>
 	<header><h1>#Coding365Challenge: Day 7 (Form Submission to Database)</h1></header>
